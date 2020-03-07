@@ -1,6 +1,10 @@
 .nav-section {
-  position: relative;
-  background-color: transparent !important;
+  position: fixed !important;
+  top: 0;
+  z-index: 10;
+  // background-color: transparent !important;
+  
+
   .collapse {
     margin-bottom: 20px;
   }
@@ -18,14 +22,14 @@
       }
     }
     a {
-      color: rgb(18, 177, 52) !important;
+      color: rgb(68,133,242) !important;
       font-size: 22px;
       font-weight: 500;
     }
     .active {
-      color: #ff7200 !important;
-      font-weight: 500;
-      font-size: 18px;
+      color: rgb(18, 177, 52) !important;
+      font-weight: 700;
+
     }
   }
   .top-navbar {
@@ -66,4 +70,8 @@
   }
 
   /* end of navbar */
+}
+
+.margin-top{
+  margin-top: 100px !important;
 }
