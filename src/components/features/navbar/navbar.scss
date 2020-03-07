@@ -1,0 +1,77 @@
+.nav-section {
+  position: fixed !important;
+  top: 0;
+  z-index: 10;
+  // background-color: transparent !important;
+  
+
+  .collapse {
+    margin-bottom: 20px;
+  }
+  .stick-top {
+    // border: 1px solid black;
+    background-color: transparent !important;
+    .navbar-brand {
+      color: #fff;
+      font-size: 25px;
+      font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      span {
+        color: #fed136;
+      }
+    }
+    a {
+      color: rgb(68,133,242) !important;
+      font-size: 22px;
+      font-weight: 500;
+    }
+    .active {
+      color: rgb(18, 177, 52) !important;
+      font-weight: 700;
+
+    }
+  }
+  .top-navbar {
+    border-bottom: 1px solid #cecccc !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    display: flex !important;
+    padding: 5px !important;
+    margin-bottom: 10px !important;
+    width: 100% !important;
+    .top-navbar-text {
+      border: 1px solid #00acee !important;
+      border-radius: 3px !important;
+      padding: 0 0.5rem !important;
+      font-size: 14px !important;
+      .date {
+        font-weight: 600 !important;
+      }
+    }
+    .social-media {
+      font-size: 30px !important;
+      width: 100px !important;
+      display: flex !important;
+      justify-content: space-between !important;
+      .fa-facebook-square {
+        color: #3b5998 !important;
+        cursor: pointer !important;
+      }
+      .fa-twitter-square {
+        color: #00acee !important;
+        cursor: pointer !important;
+      }
+      .fa-instagram {
+        color: #e1306c !important;
+        cursor: pointer !important;
+      }
+    }
+  }
+
+  /* end of navbar */
+}
+
+.margin-top{
+  margin-top: 100px !important;
+}
