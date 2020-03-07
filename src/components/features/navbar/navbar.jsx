@@ -18,7 +18,7 @@ const AppNavbar = props => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div className="nav-section">
+    <div className="nav-section container-fluid bg-white ">
       <div className="stick-top">
         <Navbar  light expand="md">
           <NavbarBrand href="/" className="navbar-brand">

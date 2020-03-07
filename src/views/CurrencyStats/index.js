@@ -29,7 +29,7 @@ class CurrencyStats extends Component {
          return (
             <>
             <Navbar/>
-            <div className="row">
+            <div className="row margin-top">
                <div className="col">
                   <section className="module container-module currency-stats">
                      <div className="currency-stats-header text-center">
